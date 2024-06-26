@@ -1,0 +1,53 @@
+@keyframes loading {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+  }
+  
+  .loading-animation {
+    animation: loading 1s infinite;
+  }
+  /* App.css */
+
+/* Define the container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+  }
+  
+  /* Define the chat area styles */
+  .chat-area {
+    flex: 1; /* Allow the chat area to grow to fill remaining space */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 20px; /* Add padding to the chat area */
+  }
+  
+  /* Define the form styles */
+  .form-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 20px; /* Add padding to the form */
+  }
+  
+  /* Define the input styles */
+  .input-box {
+    flex: 1; /* Allow the input box to grow to fill remaining space */
+    border: 1px solid #ccc; /* Add border to the input box */
+    border-radius: 5px; /* Add border radius to the input box */
+    padding: 10px; /* Add padding to the input box */
+    margin-right: 10px; /* Add margin to the input box */
+  }
+  
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
